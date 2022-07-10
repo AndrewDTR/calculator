@@ -7,7 +7,7 @@ while not first_num.isnumeric():
 
 operator = input("Enter the operation that you'd like to perform: ")
 
-while not operator in ["*", "-", "+", "/"]:
+while not operator in ["*", "-", "+", "/", "%"]:
     operator = input("Sorry, I don't recognize that operator. Try again: ")
 
 second_num = input("Enter the second number: ")
@@ -26,6 +26,9 @@ elif (operator == "*"):
     print("Your answer is: " + str(answer))
 elif (operator == "/"):
     answer = int(first_num) / int(second_num)
+    print("Your answer is: " + str(answer))
+elif (operator == "%"):
+    answer = int(first_num) % int(second_num)
     print("Your answer is: " + str(answer))
 else:
     print("Something went wrong while trying to process this input.")
