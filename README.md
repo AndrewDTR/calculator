@@ -6,7 +6,7 @@ After being forced to solve complex math equations on paper and in my head, I th
 
 ## Usage
 
-To use, simply download the `cli.py` file. After doing so, you can just cd into the directory it was downloaded in, and simply type `python main.py` to begin using the calculator.
+To use, simply download the `cli.py` file. After doing so, you can just cd into the directory it was downloaded in, and simply type `python cli.py` to begin using the calculator.
 
 ## Todo
 
