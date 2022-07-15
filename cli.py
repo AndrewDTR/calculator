@@ -1,5 +1,3 @@
-# A calculator will go here.
-
 first_num = input("Enter your first number: ")
 
 while not first_num.isnumeric():
